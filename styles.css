@@ -1,0 +1,79 @@
+.shrikhand-regular {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;
+}
+
+.card {
+    height: 100%;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #212529;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #495057;
+}
+
+/* Paw pattern background */
+.paw-pattern {
+    background-image: url('images/paw-pattern.png');
+    background-repeat: repeat;
+    background-size: 120px 120px;
+    background-position: center;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 20px;
+} 
+
+.footer-shadow {
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.form-pattern ::before {
+    background: radial-gradient(circle, transparent 25%, #ffffff 26%),
+                linear-gradient(45deg, transparent 46%, #e2aa3c 47%, #e2aa3c 52%, transparent 53%),
+                linear-gradient(135deg, transparent 46%, #e2aa3c 47%, #e2aa3c 52%, transparent 53%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 0.45;
+}
+
+/* Section headings */
+h2,
+h2,
+h2,
+h2 {
+    color: #e2aa3c;  /* Same orange color used in the pattern */
+}
+
+
+
+.image-link:hover {
+    transform: scale(1.02);
+}
